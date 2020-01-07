@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB6B383C23BC05C4004E782B /* libStringHuffStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6B383B23BC05C0004E782B /* libStringHuffStatic.a */; };
+		CBA62C8123B5A4B4009C881A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA62C8023B5A4B4009C881A /* AppDelegate.swift */; };
+		CBA62C8323B5A4B4009C881A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA62C8223B5A4B4009C881A /* ViewController.swift */; };
+		CBA62C8523B5A4B6009C881A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA62C8423B5A4B6009C881A /* Assets.xcassets */; };
+		CBA62C8823B5A4B6009C881A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA62C8623B5A4B6009C881A /* Main.storyboard */; };
+		CBA62C9423B5A4B6009C881A /* HuffmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA62C9323B5A4B6009C881A /* HuffmanTests.swift */; };
+		CBA62CA423B5A58D009C881A /* wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBA62CA223B5A58D009C881A /* wrapper.cpp */; };
+		CBC69D0523BAEBCB00C9F10E /* Test2 in Resources */ = {isa = PBXBuildFile; fileRef = CBC69D0423BAEBCB00C9F10E /* Test2 */; };
+		CBC69D0F23BAED6000C9F10E /* Filetest in Resources */ = {isa = PBXBuildFile; fileRef = CBC69D0E23BAED6000C9F10E /* Filetest */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB6B383A23BC05C0004E782B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB6B383623BC05C0004E782B /* StringHuffStatic.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CB6B381D23BC04D7004E782B;
+			remoteInfo = StringHuffStatic;
+		};
+		CBA62C9023B5A4B6009C881A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBA62C7523B5A4B4009C881A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBA62C7C23B5A4B4009C881A;
+			remoteInfo = Huffman;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB6B383623BC05C0004E782B /* StringHuffStatic.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StringHuffStatic.xcodeproj; path = ../StringHuffStatic/StringHuffStatic.xcodeproj; sourceTree = "<group>"; };
+		CB6B384823BC161B004E782B /* encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encoder.h; sourceTree = "<group>"; };
+		CB6B384923BC161B004E782B /* decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decoder.h; sourceTree = "<group>"; };
+		CB6B384A23BC161B004E782B /* main.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = main.hpp; sourceTree = "<group>"; };
+		CB6B384D23BC165B004E782B /* linkedlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linkedlist.h; sourceTree = "<group>"; };
+		CBA62C7D23B5A4B4009C881A /* Huffman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huffman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA62C8023B5A4B4009C881A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBA62C8223B5A4B4009C881A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBA62C8423B5A4B6009C881A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBA62C8723B5A4B6009C881A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBA62C8923B5A4B6009C881A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA62C8A23B5A4B6009C881A /* Huffman.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Huffman.entitlements; sourceTree = "<group>"; };
+		CBA62C8F23B5A4B6009C881A /* HuffmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuffmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA62C9323B5A4B6009C881A /* HuffmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuffmanTests.swift; sourceTree = "<group>"; };
+		CBA62C9523B5A4B6009C881A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA62CA123B5A58D009C881A /* Huffman-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Huffman-Bridging-Header.h"; sourceTree = "<group>"; };
+		CBA62CA223B5A58D009C881A /* wrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wrapper.cpp; sourceTree = "<group>"; };
+		CBA62CA323B5A58D009C881A /* wrapper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = wrapper.hpp; sourceTree = "<group>"; };
+		CBC69D0423BAEBCB00C9F10E /* Test2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Test2; sourceTree = "<group>"; };
+		CBC69D0E23BAED6000C9F10E /* Filetest */ = {isa = PBXFileReference; lastKnownFileType = text; path = Filetest; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBA62C7A23B5A4B4009C881A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6B383C23BC05C4004E782B /* libStringHuffStatic.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA62C8C23B5A4B6009C881A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB6B383723BC05C0004E782B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB6B383B23BC05C0004E782B /* libStringHuffStatic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBA62C7423B5A4B4009C881A = {
+			isa = PBXGroup;
+			children = (
+				CBA62C7F23B5A4B4009C881A /* Huffman */,
+				CBA62C9223B5A4B6009C881A /* HuffmanTests */,
+				CBA62C7E23B5A4B4009C881A /* Products */,
+				CBA62C9E23B5A538009C881A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBA62C7E23B5A4B4009C881A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBA62C7D23B5A4B4009C881A /* Huffman.app */,
+				CBA62C8F23B5A4B6009C881A /* HuffmanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBA62C7F23B5A4B4009C881A /* Huffman */ = {
+			isa = PBXGroup;
+			children = (
+				CB6B384D23BC165B004E782B /* linkedlist.h */,
+				CB6B384923BC161B004E782B /* decoder.h */,
+				CB6B384823BC161B004E782B /* encoder.h */,
+				CB6B384A23BC161B004E782B /* main.hpp */,
+				CBA62C8023B5A4B4009C881A /* AppDelegate.swift */,
+				CBA62C8223B5A4B4009C881A /* ViewController.swift */,
+				CBA62C8423B5A4B6009C881A /* Assets.xcassets */,
+				CBA62C8623B5A4B6009C881A /* Main.storyboard */,
+				CBA62C8923B5A4B6009C881A /* Info.plist */,
+				CBA62C8A23B5A4B6009C881A /* Huffman.entitlements */,
+				CBA62CA223B5A58D009C881A /* wrapper.cpp */,
+				CBA62CA323B5A58D009C881A /* wrapper.hpp */,
+				CBA62CA123B5A58D009C881A /* Huffman-Bridging-Header.h */,
+				CBC69D0423BAEBCB00C9F10E /* Test2 */,
+				CBC69D0E23BAED6000C9F10E /* Filetest */,
+			);
+			path = Huffman;
+			sourceTree = "<group>";
+		};
+		CBA62C9223B5A4B6009C881A /* HuffmanTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBA62C9323B5A4B6009C881A /* HuffmanTests.swift */,
+				CBA62C9523B5A4B6009C881A /* Info.plist */,
+			);
+			path = HuffmanTests;
+			sourceTree = "<group>";
+		};
+		CBA62C9E23B5A538009C881A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB6B383623BC05C0004E782B /* StringHuffStatic.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBA62C7C23B5A4B4009C881A /* Huffman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA62C9823B5A4B6009C881A /* Build configuration list for PBXNativeTarget "Huffman" */;
+			buildPhases = (
+				CBA62C7923B5A4B4009C881A /* Sources */,
+				CBA62C7A23B5A4B4009C881A /* Frameworks */,
+				CBA62C7B23B5A4B4009C881A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Huffman;
+			productName = Huffman;
+			productReference = CBA62C7D23B5A4B4009C881A /* Huffman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBA62C8E23B5A4B6009C881A /* HuffmanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA62C9B23B5A4B6009C881A /* Build configuration list for PBXNativeTarget "HuffmanTests" */;
+			buildPhases = (
+				CBA62C8B23B5A4B6009C881A /* Sources */,
+				CBA62C8C23B5A4B6009C881A /* Frameworks */,
+				CBA62C8D23B5A4B6009C881A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBA62C9123B5A4B6009C881A /* PBXTargetDependency */,
+			);
+			name = HuffmanTests;
+			productName = HuffmanTests;
+			productReference = CBA62C8F23B5A4B6009C881A /* HuffmanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBA62C7523B5A4B4009C881A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Vishnu Banna";
+				TargetAttributes = {
+					CBA62C7C23B5A4B4009C881A = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+					CBA62C8E23B5A4B6009C881A = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = CBA62C7C23B5A4B4009C881A;
+					};
+				};
+			};
+			buildConfigurationList = CBA62C7823B5A4B4009C881A /* Build configuration list for PBXProject "Huffman" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBA62C7423B5A4B4009C881A;
+			productRefGroup = CBA62C7E23B5A4B4009C881A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CB6B383723BC05C0004E782B /* Products */;
+					ProjectRef = CB6B383623BC05C0004E782B /* StringHuffStatic.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CBA62C7C23B5A4B4009C881A /* Huffman */,
+				CBA62C8E23B5A4B6009C881A /* HuffmanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CB6B383B23BC05C0004E782B /* libStringHuffStatic.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStringHuffStatic.a;
+			remoteRef = CB6B383A23BC05C0004E782B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBA62C7B23B5A4B4009C881A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC69D0F23BAED6000C9F10E /* Filetest in Resources */,
+				CBC69D0523BAEBCB00C9F10E /* Test2 in Resources */,
+				CBA62C8523B5A4B6009C881A /* Assets.xcassets in Resources */,
+				CBA62C8823B5A4B6009C881A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA62C8D23B5A4B6009C881A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBA62C7923B5A4B4009C881A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA62C8323B5A4B4009C881A /* ViewController.swift in Sources */,
+				CBA62C8123B5A4B4009C881A /* AppDelegate.swift in Sources */,
+				CBA62CA423B5A58D009C881A /* wrapper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA62C8B23B5A4B6009C881A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA62C9423B5A4B6009C881A /* HuffmanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBA62C9123B5A4B6009C881A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBA62C7C23B5A4B4009C881A /* Huffman */;
+			targetProxy = CBA62C9023B5A4B6009C881A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBA62C8623B5A4B6009C881A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA62C8723B5A4B6009C881A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBA62C9623B5A4B6009C881A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBA62C9723B5A4B6009C881A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CBA62C9923B5A4B6009C881A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Huffman/Huffman.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = Huffman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vishnubanna.Huffman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Huffman/Huffman-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CBA62C9A23B5A4B6009C881A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Huffman/Huffman.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = Huffman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vishnubanna.Huffman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Huffman/Huffman-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CBA62C9C23B5A4B6009C881A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HuffmanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = vishnubanna.HuffmanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Huffman.app/Contents/MacOS/Huffman";
+			};
+			name = Debug;
+		};
+		CBA62C9D23B5A4B6009C881A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HuffmanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = vishnubanna.HuffmanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Huffman.app/Contents/MacOS/Huffman";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBA62C7823B5A4B4009C881A /* Build configuration list for PBXProject "Huffman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA62C9623B5A4B6009C881A /* Debug */,
+				CBA62C9723B5A4B6009C881A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA62C9823B5A4B6009C881A /* Build configuration list for PBXNativeTarget "Huffman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA62C9923B5A4B6009C881A /* Debug */,
+				CBA62C9A23B5A4B6009C881A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA62C9B23B5A4B6009C881A /* Build configuration list for PBXNativeTarget "HuffmanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA62C9C23B5A4B6009C881A /* Debug */,
+				CBA62C9D23B5A4B6009C881A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBA62C7523B5A4B4009C881A /* Project object */;
+}
